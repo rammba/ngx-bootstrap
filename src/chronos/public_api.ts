@@ -3,14 +3,14 @@ import './units/index';
 export { add, subtract } from './moment/add-subtract';
 
 export {
-getDay,
-isFirstDayOfWeek,
-isSameYear,
-isSameDay,
-isSameMonth,
-getFullYear,
-getFirstDayOfMonth,
-getMonth
+  getDay,
+  isFirstDayOfWeek,
+  isSameYear,
+  isSameDay,
+  isSameMonth,
+  getFullYear,
+  getFirstDayOfMonth,
+  getMonth
 } from './utils/date-getters';
 
 export { parseDate } from './create/local';
@@ -48,7 +48,7 @@ export { esUsLocale } from './i18n/es-us';
 export { etLocale } from './i18n/et';
 export { fiLocale } from './i18n/fi';
 export { frLocale } from './i18n/fr';
-export {frCaLocale} from './i18n/fr-ca';
+export { frCaLocale } from './i18n/fr-ca';
 export { glLocale } from './i18n/gl';
 export { heLocale } from './i18n/he';
 export { hiLocale } from './i18n/hi';
@@ -68,11 +68,13 @@ export { nlBeLocale } from './i18n/nl-be';
 export { nlLocale } from './i18n/nl';
 export { plLocale } from './i18n/pl';
 export { ptBrLocale } from './i18n/pt-br';
-export { roLocale }  from './i18n/ro';
+export { roLocale } from './i18n/ro';
 export { ruLocale } from './i18n/ru';
 export { skLocale } from './i18n/sk';
 export { slLocale } from './i18n/sl';
 export { sqLocale } from './i18n/sq';
+export { srCyrlLocale } from './i18n/sr-cyrl';
+export { srLatnLocale } from './i18n/sr-latn';
 export { svLocale } from './i18n/sv';
 export { thLocale } from './i18n/th';
 export { thBeLocale } from './i18n/th-be';
